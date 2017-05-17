@@ -1,8 +1,7 @@
 export default {
   eventHandlers: {
     CREATE: function* (state, event) {
-      yield state.setIn([event.aggregateId, 'value'], 0);
-      return state;
+      return yield state.setIn([event.aggregateId, 'value'], 0);
     },
     INCREMENT: function* (state, event) {
       const counter = yield state.getIn([event.aggregateId, 'value']);
