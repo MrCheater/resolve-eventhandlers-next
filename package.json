@@ -1,0 +1,25 @@
+{
+  "name": "resolve-eventhandlers-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/demo-async.js && babel-node src/demo-sync.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrCheater/resolve-eventhandlers-next.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrCheater/resolve-eventhandlers-next/issues"
+  },
+  "homepage": "https://github.com/MrCheater/resolve-eventhandlers-next#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "seamless-immutable": "^7.1.2"
+  }
+}
